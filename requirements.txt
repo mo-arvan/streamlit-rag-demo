@@ -1,0 +1,16 @@
+langgraph
+pydantic
+requests
+snowflake_connector_python
+snowflake_snowpark_python
+streamlit
+websocket_client
+duckduckgo_search
+supabase
+unstructured
+tiktoken
+pandas
+langchain
+python-dotenv==1.0.1
+langchain-openai
+langchain_community
