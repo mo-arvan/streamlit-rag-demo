@@ -39,7 +39,7 @@ class ModelConfig:
 model_configurations = {
     "gpt-4o-mini": ModelConfig(
         model_name="gpt-4o-mini",
-        api_key=os.getenv("OPENAI_API_KEY")
+        api_key=st.secrets["OPENAI_API_KEY"]
     ),
     # "Gemini Flash 1.5": ModelConfig(
     #     model_name="gemini-1.5-flash",
